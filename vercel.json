@@ -5,8 +5,8 @@
   "installCommand": "npm install",
   "outputDirectory": ".next",
   "functions": {
-    "app/api/**/*.ts": {
-      "runtime": "@vercel/node@18"
+    "app/**/*.tsx": {
+      "runtime": "nodejs18.x"
     }
   },
   "rewrites": [
